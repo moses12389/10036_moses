@@ -1,25 +1,36 @@
-let item=item1
-let item=item2
-let item=item3
-let item=item4
-let total=totals
-let vat=5%
-let paid= 4000
-let change=1300
-let servedby=moses
-Document.getElementById("item1")
-innerHTML=item1
-Document.getElementById("item2")
-innerHTML=item2Document.getElementById("item3")
-innerHTML=item3
-Document.getElementById("item4")
-innerHTML=item4
-Document.getElementById("total")
-innerHTML=totalDocument.getElementById("VAT")
-innerHTML=VAT
-Document.getElementById("paid")
+let popularonNetflix=
+["moneyheist","narco","ozar"]
+console.log(popularonNetflix[0])
+console.log(popularonNetflix[1])
+console.log(popularonNetflix[2])
 
-Document.getElementById("change")
-innerHTML=change
-Document.getElementById("servedby")
-innerHTML=servedby
+
+
+let categories=
+   ["action","Drama","anime","lifestyle","homur","scifi"]
+    console.log(categories[0])
+    console.log(categories[1])
+    console.log(categories[2])
+    console.log(categories[3])
+    console.log(categories[3])
+    console.log(categories[5])
+    console.log(categories[6])
+let Fname="Moses"
+let Sname="wanjala"
+console.log(Fname+ " "+Sname)
+console.log(popularonNetflix[1]+" "+popularonNetflix[2])
+console.log(categories[4]+" "+categories[5])
+console.log(categories[5])+" "+(categories[6])
+
+let displayInterface={
+    title:"moneyheist",
+    rating:5.6,
+    season:4
+}
+
+console.log(displayInterface.title)
+console.log(displayInterface.rating)
+console.log(displayInterface.season)
+console.log(displayInterface)
+console.log(displayInterface .title+" "+categories[3]+" "+displayInterface .rating)
+
